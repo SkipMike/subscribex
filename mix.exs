@@ -3,7 +3,7 @@ defmodule Subscribex.Mixfile do
 
   def project do
     [app: :subscribex,
-     version: "0.8.0-rc.0",
+     version: "0.9.0-rc.0",
      elixir: "~> 1.3",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
@@ -33,7 +33,7 @@ defmodule Subscribex.Mixfile do
 
   defp deps do
     [
-     {:amqp, "~> 0.2.0"},
+     {:amqp, "~> 0.3.0"},
      {:ex_doc, "~> 0.13", only: :dev},
      {:dialyxir, "0.3.5", only: :dev}
    ]
